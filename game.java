@@ -57,6 +57,7 @@ class rock {
                     System.out.println("\nDo you want to play again? (y/n): ");
                         String playAgain = sc.next();
                         if(!playAgain.equals("y")) {
+                            System.out.println("Thanks for playing!");
                             break;
                         }
                     }
